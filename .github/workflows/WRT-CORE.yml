@@ -144,15 +144,13 @@ jobs:
       - name: Update Feeds
         run: |
           cd ./wrt/
-
-          ./scripts/feeds update -a
-          ./scripts/feeds install -a
+          $GITHUB_WORKSPACE/Scripts/diy.sh
 
       - name: Custom Packages
         run: |
           cd ./wrt/package/
 
-          $GITHUB_WORKSPACE/Scripts/Packages.sh
+          
           $GITHUB_WORKSPACE/Scripts/Handles.sh
 
       - name: Custom Settings
