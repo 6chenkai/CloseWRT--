@@ -151,7 +151,7 @@ jobs:
           cd ./wrt/package/
 
           
-          $GITHUB_WORKSPACE/Scripts/preset-clash-core
+          $GITHUB_WORKSPACE/Scripts/preset-clash-core.sh
 
       - name: Custom Settings
         run: |
