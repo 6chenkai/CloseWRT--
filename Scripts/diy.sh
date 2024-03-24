@@ -12,4 +12,4 @@ git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/l
 
 rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd-alt,miniupnpd-iptables,wireless-regdb}
 ./scripts/feeds install -a  
-./scripts/feeds install -a
+
