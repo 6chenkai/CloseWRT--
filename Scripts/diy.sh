@@ -16,3 +16,7 @@ echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.defa
 ./scripts/feeds install -d y -p istore luci-app-store
 ./scripts/feeds install -a  
 
+rm -rf    feeds/luci/applications/luci-app-openclash
+rm -rf    feeds/luci/applications/luci-app-passwall
+rm -rf    feeds/luci/applications/luci-app-ssr-plus
+rm -rf    feeds/luci/applications/luci-app-store
