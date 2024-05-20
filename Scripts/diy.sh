@@ -16,11 +16,7 @@ rm -rf    feeds/luci/applications/luci-app-openclash
 rm -rf    feeds/luci/applications/luci-app-passwall
 rm -rf    feeds/luci/applications/luci-app-ssr-plus
 
-
-
 echo >> feeds.conf.default
-echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
-./scripts/feeds update istore
-./scripts/feeds install -d y -p istore luci-app-store
+
 ./scripts/feeds install -a  
 
