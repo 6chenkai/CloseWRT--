@@ -10,7 +10,7 @@
 
  cp -rf feeds/smpackage/luci-app-mosdns  feeds/luci/applications/luci-app-mosdns
 
- rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd*,miniupnpd-iptables,wireless-regdb,sing*,/luci-app-ssr-plus,luci-app-passwall}
+ rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd*,miniupnpd-iptables,wireless-regdb,sing*,luci-app-ssr-plus,luci-app-passwall}
  rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray*,v2ray*,sing*,smartdns}
  rm -rf feeds/packages/utils/v2dat
  
