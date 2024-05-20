@@ -14,7 +14,7 @@ rm -rf feeds/smpackage/{base-files,dnsmasq*,firewall*,fullconenat,libnftnl,nftab
 rm -rf    feeds/luci/applications/luci-app-openclash
 rm -rf    feeds/luci/applications/luci-app-passwall
 rm -rf    feeds/luci/applications/luci-app-ssr-plus
-rm -rf    feeds/luci/applications/luci-app-store
+
 
 cp -rf  feeds/smpackage/luci-app-openclash    feeds/luci/applications/luci-app-openclash
 cp -rf  feeds/smpackage/luci-app-passwall    feeds/luci/applications/luci-app-passwall
