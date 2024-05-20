@@ -11,6 +11,16 @@ sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.con
 ./scripts/feeds update -a
 rm -rf feeds/smpackage/{base-files,dnsmasq*,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd-alt,miniupnpd-iptables,wireless-regdb,luci-app-store}
 
+rm -rf    feeds/luci/applications/luci-app-openclash
+rm -rf    feeds/luci/applications/luci-app-passwall
+rm -rf    feeds/luci/applications/luci-app-ssr-plus
+rm -rf    feeds/luci/applications/luci-app-store
+
+cp -rf  feeds/smpackage/luci-app-openclash    feeds/luci/applications/luci-app-openclash
+cp -rf  feeds/smpackage/luci-app-passwall    feeds/luci/applications/luci-app-passwall
+cp -rf  feeds/smpackage/luci-app-ssr-plus    feeds/luci/applications/luci-app-ssr-plus
+cp -rf  feeds/smpackage/luci-app-mosdns      feeds/luci/applications/luci-app-mosdns
+
 echo >> feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
 ./scripts/feeds update istore
