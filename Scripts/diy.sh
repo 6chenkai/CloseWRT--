@@ -17,10 +17,6 @@ rm -rf    feeds/luci/applications/luci-app-passwall
 rm -rf    feeds/luci/applications/luci-app-ssr-plus
 
 
-cp -rf  feeds/kenzo/luci-app-openclash    feeds/luci/applications/luci-app-openclash
-cp -rf  feeds/kenzo/luci-app-passwall    feeds/luci/applications/luci-app-passwall
-cp -rf  feeds/kenzo/luci-app-ssr-plus    feeds/luci/applications/luci-app-ssr-plus
-cp -rf  feeds/kenzo/luci-app-mosdns      feeds/luci/applications/luci-app-mosdns
 
 echo >> feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
