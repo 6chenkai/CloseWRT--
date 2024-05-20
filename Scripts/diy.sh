@@ -2,8 +2,7 @@
  sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 ./scripts/feeds update -a
  rm -rf feeds/luci/applications/luci-app-mosdns
- rm -rf feeds/luci/applications/luci-app-passwall
- rm -rf feeds/luci/applications/luci-app-ssr-plus
+
  rm -rf feeds/luci/applications/luci-app-openclash
  
  cp -rf feeds/smpackage/luci-app-openclash   feeds/luci/applications/luci-app-openclash
