@@ -16,10 +16,7 @@ on:
       WRT_NAME:
         required: true
         type: string
-      WRT_WIFI1:
-        required: true
-        type: string
-      WRT_WIFI2:
+      WRT_WIFI:
         required: true
         type: string
       WRT_URL:
