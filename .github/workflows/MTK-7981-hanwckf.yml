@@ -22,10 +22,9 @@ jobs:
       #默认主题
       WRT_THEME: argon
       #默认主机名
-      WRT_NAME: CWRT
+      WRT_NAME: ZH_WRT
       #默认WIFI名
-      WRT_WIFI1: ZH
-      WRT_WIFI2: ZH
+      WRT_WIFI: ZH
       #默认密码，仅作提示，修改无用
       WRT_PW: 无
       #默认地址
