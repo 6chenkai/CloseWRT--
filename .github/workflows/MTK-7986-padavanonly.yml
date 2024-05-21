@@ -24,7 +24,8 @@ jobs:
       #默认主机名
       WRT_NAME: CWRT
       #默认WIFI名
-      WRT_WIFI: CWRT
+      WRT_WIFI1: YXS
+      WRT_WIFI2: 1小时手机快修
       #默认密码，仅作提示，修改无用
       WRT_PW: 无
       #默认地址
