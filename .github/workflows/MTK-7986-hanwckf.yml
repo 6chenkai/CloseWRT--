@@ -25,7 +25,7 @@ jobs:
       WRT_NAME: ZH_WRT
       #默认WIFI名
       WRT_WIFI1: YXS
-      WRT_WIFI2: 1小时手机快修_5G
+      WRT_WIFI2: 1小时手机快修
       #默认密码，仅作提示，修改无用
       WRT_PW: 无
       #默认地址
