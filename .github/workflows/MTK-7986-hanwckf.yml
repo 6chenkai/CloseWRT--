@@ -24,7 +24,7 @@ jobs:
       #默认主机名
       WRT_NAME: ZH_WRT
       #默认WIFI名
-      WRT_WIFI: CWRT
+      WRT_WIFI: ZH
       #默认密码，仅作提示，修改无用
       WRT_PW: 无
       #默认地址
